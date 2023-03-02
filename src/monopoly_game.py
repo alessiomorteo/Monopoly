@@ -1,3 +1,4 @@
+from random import randint
 
 class MonopolyGame:
     def __init__(self)->None:
@@ -16,9 +17,9 @@ class MonopolyGame:
     
     def roll_dice(self):
         """Function to mimic the rolling of two dice.
-        Sets a tuple of the outcome of each of the two rolls.
+        Sets a list of the outcome of each of the two rolls.
         """
-        pass
+        self.roll_outcomes = [randint(1,6) for i in range(2)]
 
     def take_turn(self):
         """Function to have the current player take their turn.
