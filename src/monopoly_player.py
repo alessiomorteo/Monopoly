@@ -1,20 +1,45 @@
 
 class MonopolyPlayer:
-    def __init__(self,name,starting_balance):
+    def __init__(self, name:str, starting_balance:int):
+        """Instantiate a Monopoly player.
+
+        Args:
+            name (str): The name of the player.
+            starting_balance (int): The balance that the player will start with.
+        """
         self.name = name
         self.balance = starting_balance
         self.properties = []
 
-    def buy_property(self, property):
+    def buy_property(self, property)->None:
+        """Function to handle the purchase of a property by the player.
+
+        Args:
+            property (_type_): The property to be purchased.
+        """
         self.balance -= property.price
         self.properties.append(property)
         property.set_owner(self)
 
-    def pay_rent(self, property, amount):
+    def pay_rent(self, property, amount:int)->None:
+        """Function to handle the player payment of rent to another player.
+
+        Args:
+            property (_type_): _description_
+            amount (int): The value of the rent to be charged.
+        """
         self.balance -= amount
         property.owner.balance += amount
 
-    def can_afford(self, amount):
+    def can_afford(self, amount:int)->bool:
+        """Function to check if the player can afford to purchase a property.
+
+        Args:
+            amount (int): The cost of the property that the player wishes to purchase.
+
+        Returns:
+            bool: Boolean to represent 
+        """
         return self.balance >= amount
     
     
