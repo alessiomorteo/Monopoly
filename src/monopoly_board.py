@@ -43,11 +43,7 @@ class MonopolyBoard:
         else:
             raise ValueError()
 
-    def __get_card(self, card_type_list:list)->None:
-        selected_card = self.card_type_list[:-1]
-        # put the card to the bottom of the pile
-        self.card_type_list.insert(0, self.card_type_list.pop(-1))
-        return selected_card
+    
 
         
     
