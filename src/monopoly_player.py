@@ -7,9 +7,23 @@ class MonopolyPlayer:
             name (str): The name of the player.
             starting_balance (int): The balance that the player will start with.
         """
-        self.name = name
-        self.balance = starting_balance
-        self.properties = []
+        self.name = name # player's name
+        self.balance = starting_balance # balance player has
+        self.position = 0 # index of position on the board
+        self.properties = [] # properties owned by the player
+
+    def player_status(self)->dict:
+        """Gives a summary of the player's status.
+
+        Returns:
+            dict: _description_
+        """
+        return {
+            "player_name": self.name,
+            "balance": self.balance,
+            "properties": self.properties
+            }
+
 
     def buy_property(self, property)->None:
         """Function to handle the purchase of a property by the player.

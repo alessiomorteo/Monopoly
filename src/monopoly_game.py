@@ -1,19 +1,13 @@
+from monopoly_board import MonopolyBoard
+from monopoly_player import MonopolyPlayer
+from typing import List
 from random import randint
 
 class MonopolyGame:
-    def __init__(self)->None:
+    def __init__(self, players:List[MonopolyPlayer], board:MonopolyBoard)->None:
         """Initialise the game board and player list."""
         self.board = []
-        self.players = []
-
-    def add_player(self, player)->None:
-        """Adds an individual player to the list of players involved 
-        in the given game.
-
-        Args:
-            player (MonopolyPlayer): An instance of the class MonopolyPlayer, representing one player.
-        """
-        self.players.append(player)
+        self.players = players
     
     def roll_dice(self)->None:
         """Function to mimic the rolling of two dice.
