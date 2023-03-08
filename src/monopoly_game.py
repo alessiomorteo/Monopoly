@@ -4,9 +4,9 @@ from typing import List
 from random import randint
 
 class MonopolyGame:
-    def __init__(self, players:List[MonopolyPlayer], board:MonopolyBoard)->None:
+    def __init__(self, board:MonopolyBoard, players:List[MonopolyPlayer])->None:
         """Initialise the game board and player list."""
-        self.board = []
+        self.board = board
         self.players = players
     
     def roll_dice(self)->None:

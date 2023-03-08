@@ -1,6 +1,9 @@
+from monopoly_property import MonopolyProperty
+from monopoly_card_deck import CardDeck
+from typing import List
 
 class MonopolyBoard:
-    def __init__(self):
+    def __init__(self, properties:List[MonopolyProperty]):
         """Initialise the Monopoly board.
         """
         self.properties = []
