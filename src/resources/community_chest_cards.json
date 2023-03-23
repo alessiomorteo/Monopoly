@@ -1,0 +1,18 @@
+{
+    "advance_go": "Advance to Go (Collect £200)",
+    "bank_error_favour": "Bank error in your favour. Collect £200",
+    "doctors_fee": "Doctor’s fee. Pay £50",
+    "stock_sale": "From sale of stock you get £50",
+    "get_out_jail": "Get Out of Jail Free",
+    "go_jail": "Go to Jail. Go directly to jail, do not pass Go, do not collect £200",
+    "holiday_fund": "Holiday fund matures. Receive £100",
+    "tax_refund": "Income tax refund. Collect £20",
+    "birthday_gift": "It is your birthday. Collect £10 from every player",
+    "life_insurance_matures": "Life insurance matures. Collect £100",
+    "hospital_fee": "Pay hospital fees of £100",
+    "pay_school": "Pay school fees of £50",
+    "receive_consulting_fee": "Receive £25 consultancy fee",
+    "street_repairs": "You are assessed for street repairs. £40 per house. £115 per hotel",
+    "beauty_contest_prize": "You have won second prize in a beauty contest. Collect £10",
+    "inheritance": "You inherit £100"
+}

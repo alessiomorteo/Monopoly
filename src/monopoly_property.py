@@ -25,4 +25,17 @@ class MonopolyProperty:
         """
         pass
 
+
+class RailStationProperty(MonopolyProperty):
+    def __init__(self, name, price, rent):
+        super().__init__(name, price, rent)
+    
+    def get_rent(self)->None:
+        pass
+
+
+class UtilityProperty(MonopolyProperty):
+    def __init__(self, name, price, rent):
+        super().__init__(name, price, rent)
+    pass
     

@@ -1,2 +1,5 @@
-if True:
-    pass
+import pytest
+
+@pytest.fixture()
+def foo():
+    return True

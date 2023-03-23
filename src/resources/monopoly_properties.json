@@ -1,7 +1,222 @@
 {
-    "Trafalgar Square": {
-        "price": 270,
-        "rent": 25,
-        "position": 20
-    }
+    "regular": [
+        {
+			"id": 2, 
+			"name":"Old Kent Road",
+			"cost": 600,
+			"rent": 200,
+			"house_price": 250,
+			"hotel_price": 300
+		},
+        {
+			"id": 4, 
+			"name":"Whitechapel Road",
+			"cost": 600,
+			"rent": 200,
+			"house_price": 250,
+			"hotel_price": 300
+		},
+		{
+			"id": 7, 
+			"name":"The Angel Islington",
+			"cost": 1000, 
+			"rent": 200,
+			"house_price": 250,
+			"hotel_price": 300
+		},
+		{
+			"id": 9, 
+			"name":"Euston Road",
+			"cost":1000,
+			"rent": 200,
+			"house_price": 250,
+			"hotel_price": 300
+		},
+		{
+			"id": 10,
+		 	"name":"Pentonville Road",
+		 	"cost": 1200,
+		 	"rent": 200,
+		 	"house_price": 250, 
+		 	"hotel_price": 300
+		},
+		{
+			"id": 12,
+		 	"name":"Pall Mall",
+		 	"cost": 1400,
+		 	"rent": 200,
+		 	"house_price": 250, 
+		 	"hotel_price": 300
+		},
+		{
+			"id": 14,
+			"name":"Whitehall",
+			"cost": 1400,
+			"rent": 200,
+			"house_price": 250, 
+			"hotel_price": 300
+		},
+		{
+			"id": 15,
+		 	"name":"Northumberland Avenue",
+		 	"cost": 1600,
+		 	"rent": 200,
+		 	"house_price": 250,
+		 	"hotel_price": 300
+		},
+		{
+			"id": 17,
+		 	"name":"Bow Street",
+		 	"cost": 1800,
+		 	"rent": 200,
+		 	"house_price": 250, 
+		 	"hotel_price": 300
+		},
+		{
+			"id": 19,
+		 	"name":"Marlborough Street", 
+		 	"cost": 1800,
+		 	"rent": 200,
+		 	"house_price": 250, 
+		 	"hotel_price": 300
+		},
+		{
+			"id": 20,
+		 	"name":"Vine Street",
+		 	"cost": 2000,
+		 	"rent": 200,
+		 	"house_price": 250, 
+		 	"hotel_price": 300
+		},
+		{
+			"id": 22,
+		 	"name":"The Strand",
+		 	"cost": 2200,
+		 	"rent": 200,
+		 	"house_price": 250, 
+		 	"hotel_price": 300
+		},
+		{
+			"id": 24,
+		 	"name":"Fleet Street",
+		 	"cost": 2200,
+		 	"rent": 200,
+		 	"house_price": 250, 
+		 	"hotel_price": 300
+		},
+		{
+			"id": 25,
+		 	"name":"Trafalgar Square",
+		 	"cost": 2400,
+		 	"rent": 200,
+		 	"house_price": 250, 
+		 	"hotel_price": 300
+		},
+		{
+			"id": 27,
+		 	"name":"Leicester Square",
+		 	"cost": 2600,
+		 	"rent": 200,
+		 	"house_price": 250, 
+		 	"hotel_price": 300
+		},
+		{
+			"id": 28,
+		 	"name":"Coventry Street",
+		 	"cost": 2600,
+		 	"rent": 200,
+		 	"house_price": 250, 
+		 	"hotel_price": 300
+		},
+		{
+			"id": 30,
+			"name":"Piccadilly",
+			"cost": 2800,
+			"rent": 200,
+			"house_price": 250, 
+			"hotel_price": 300
+		},
+		{
+			"id": 32,
+		 	"name":"Regent Street",
+		 	"cost": 3000,
+		 	"rent": 200,
+		 	"house_price": 250, 
+		 	"hotel_price": 300
+		},
+		{
+			"id": 33,
+			"name":"Oxford Street",
+			"cost": 3000,
+			"rent": 200,
+			"house_price": 250, 
+			"hotel_price": 300
+		},
+		{
+			"id": 35,
+			"name":"Bond Street",
+			"cost": 3200,
+			"rent": 200,
+			"house_price": 250, 
+			"hotel_price": 300
+		},
+
+		 {
+			"id": 38,
+		 	"name":"Park Lane",
+		 	"cost": 3500,
+		 	"rent": 200,
+		 	"house_price": 250, 
+		 	"hotel_price": 300
+		},
+
+		 {
+			"id": 40,
+			"name":"Mayfair",
+			"cost": 400,
+			"rent": 200,
+			"house_price": 250,
+			"hotel_price": 300
+		}
+	],
+	"rail_stations": [
+        {
+			"id": 6,
+			"name":"Kings Cross Station",
+			"cost": 2000,
+			"rent": -1
+		},
+		{
+			"id": 16,
+			"name":"Marylebone Station",
+			"cost": 2000,
+			"rent": -1
+		},
+		{
+			"id": 26,
+			"name":"Fenchurch St Station",
+			"cost": 2000,
+			"rent": -1
+		}, 
+		{
+			"id": 36,
+			"name":"Liverpool Street Station",
+			"cost": 200,
+			"rent": -1
+		}
+	],
+	"utilities": [
+		{
+			"id": 13,
+			"name":"Electric Company",
+			"cost": 1500,
+			"rent": -1
+		},
+		{
+			"id": 29,
+			"name":"Water Works",
+			"cost": 1500,
+			"rent": -1
+		}
+	]
 }

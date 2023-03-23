@@ -1,9 +1,14 @@
+from monopoly_property import MonopolyProperty
+from monopoly_card_deck import CardDeck
+from typing import List
 
 class MonopolyBoard:
-    def __init__(self):
+    def __init__(self, properties:List[MonopolyProperty]):
         """Initialise the Monopoly board.
         """
         self.properties = []
+        self.chance_cards = []
+        self.community_chest_cards = []
 
     def add_property(self, property)->None:
         """Function to add a property to the board.
@@ -26,5 +31,22 @@ class MonopolyBoard:
             if property.name == name:
                 return property
             return None
+        
+    def add_chance(self, card)->None:
+        self.chance_cards.append(card)
+    
+    def add_community_chest(self, card)->None:
+        self.community_chest_cards.append(card)
+
+    def pick_card(self, card_type):
+        if card_type == "chance":
+            return self.__get_card(self.chance_cards)
+        elif card_type == "community_chest":
+            return self.__get_card(self.community_chest_cards)
+        else:
+            raise ValueError()
+
+    
+
         
     
