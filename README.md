@@ -1,3 +1,5 @@
+[![GitHub Actions CI/CD Workflow](https://github.com/alessiomorteo/Monopoly/actions/workflows/main.yml/badge.svg)](https://github.com/alessiomorteo/Monopoly/actions/workflows/main.yml)
+
 # Monopoly Game Project
 * The aim of this project is to create a basic version of the boardgame "Monopoly", with the aim of developing a Machine Learning or Neural Network based agent that can play the game to a "human level" of skill
 * The initial development will require the creation of the game itself, which will need to be robust and tested
