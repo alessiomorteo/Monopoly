@@ -1,4 +1,4 @@
-name: Monopoly Repo CI/CD Workflow
+name: GitHub Actions CI/CD Workflow
 
 on:
   push:
