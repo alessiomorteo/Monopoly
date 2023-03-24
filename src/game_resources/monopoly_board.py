@@ -40,13 +40,11 @@ class MonopolyBoard:
 
     def pick_card(self, card_type):
         if card_type == "chance":
-            return self.__get_card(self.chance_cards)
+            return self._get_card(self.chance_cards)
         elif card_type == "community_chest":
-            return self.__get_card(self.community_chest_cards)
+            return self._get_card(self.community_chest_cards)
         else:
             raise ValueError()
-
-    
-
         
-    
+    def _get_card(self, cards: list):
+        return cards[-1]

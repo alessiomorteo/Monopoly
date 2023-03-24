@@ -1,9 +1,9 @@
-from monopoly_game import MonopolyGame
-from monopoly_property import MonopolyProperty
-from monopoly_player import MonopolyPlayer
-from monopoly_board import MonopolyBoard
+from game_resources.monopoly_game import MonopolyGame
+from game_resources.monopoly_property import MonopolyProperty
+from game_resources.monopoly_player import MonopolyPlayer
+from game_resources.monopoly_board import MonopolyBoard
 
-START_BALANCE = 500
+START_BALANCE = 1500
 
 def main():
     players = [MonopolyPlayer(f"player_{i}", START_BALANCE) for i in range(1,4)]

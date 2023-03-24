@@ -35,15 +35,21 @@ class MonopolyPlayer:
         self.properties.append(property)
         property.set_owner(self)
 
-    def pay_rent(self, property, amount:int)->None:
-        """Function to handle the player payment of rent to another player.
+    def pay_rent(self, amount:int)->None:
+        """Function to handle the payment of rent.
 
         Args:
-            property (_type_): _description_
             amount (int): The value of the rent to be charged.
         """
         self.balance -= amount
-        property.owner.balance += amount
+
+    def receive_rent(self, amount:int)->None:
+        """Function to handle the receipt of rent from another player.
+
+        Args:
+            amount (int): The value of the rent to be received.
+        """
+        self.balance += amount
 
     def can_afford(self, amount:int)->bool:
         """Function to check if the player can afford to purchase a property.
