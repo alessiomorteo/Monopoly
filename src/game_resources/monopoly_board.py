@@ -13,6 +13,7 @@ class MonopolyBoard:
     def add_property(self, property)->None:
         """Function to add a property to the board.
 
+
         Args:
             property: A property
         """

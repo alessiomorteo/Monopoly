@@ -1,11 +1,13 @@
 from monopoly_board import MonopolyBoard
 from monopoly_player import MonopolyPlayer
+from monopoly_bank import MonopolyBank
 from typing import List
 from random import randint
 
 class MonopolyGame:
-    def __init__(self, board:MonopolyBoard, players:List[MonopolyPlayer])->None:
+    def __init__(self, bank:MonopolyBank, board:MonopolyBoard, players:List[MonopolyPlayer])->None:
         """Initialise the game board and player list."""
+        self.bank = bank
         self.board = board
         self.players = players
     
