@@ -1,5 +1,4 @@
 from monopoly_property import MonopolyProperty
-from monopoly_card_deck import CardDeck
 from typing import List
 
 class MonopolyBoard:

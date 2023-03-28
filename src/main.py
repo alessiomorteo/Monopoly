@@ -1,7 +1,9 @@
 from game_resources.monopoly_game import MonopolyGame
 from game_resources.monopoly_board import MonopolyBoard
 from game_resources.monopoly_bank import MonopolyBank
-from game_resources.utils import create_players, setup_properties_from_json
+from game_resources.utils import (
+    create_players, setup_properties_from_json
+)
 from typing import List
 
 # game settings
