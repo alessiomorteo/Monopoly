@@ -14,12 +14,12 @@ class EventTile(SpecialTile):
         super().__init__(position, name)
 
 class TaxationTile(SpecialTile):
-    def __init__(self, position, name, rent):
+    def __init__(self, position, name, tax):
         super().__init__(position, name)
-        self.rent = rent
+        self.tax = tax
 
     def get_tax_owed(self):
-        return self.rent
+        return self.tax
 
 class BaseProperty:
     def __init__(self, position: int, name:str, price:int, rent:int):
